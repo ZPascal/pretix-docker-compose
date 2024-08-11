@@ -16,7 +16,7 @@ services:
       - backend
 
   database:
-    image: postgres:13-alpine3.20
+    image: postgres:16-alpine3.20
     container_name: database
     ports:
       - "5432:5432"
