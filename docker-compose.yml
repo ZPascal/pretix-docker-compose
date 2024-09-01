@@ -2,14 +2,16 @@ version: '3'
 services:
   app:
     container_name: pretix_app
-    image: pretix/standalone:stable
+    build:
+      dockerfile: Dockerfile
+      context: ./docker/pretix
     restart: always
     depends_on:
       - database
       - cache
     volumes:
       - pretix_data:/data
-      - ./docker/pretix.cfg:/etc/pretix/pretix.cfg
+      - ./docker/pretix/pretix.cfg:/etc/pretix/pretix.cfg
     ports:
       - "8000:80"
     networks:
