@@ -3,7 +3,11 @@ The repository includes a [Pretix](https://pretix.eu/about/de/) docker-compose c
 
 ## Usage
 
-You can execute `docker-compose up -d` to start all related containers.
+You can execute `docker-compose up -d --build --force-recreate` to start and build all related containers.
+
+### Cronjobs
+
+It is possible to adapt the `pretixuser` crontab entries by modifying the [crontab.bak](docker/pretix/crontab.bak) file.
 
 ## Contribution
 If you would like to contribute something, have an improvement request, or want to make a change inside the code, please open a pull request.
