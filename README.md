@@ -9,6 +9,10 @@ You can execute `docker-compose up -d --build --force-recreate` to start and bui
 
 It is possible to adapt the `pretixuser` crontab entries by modifying the [crontab](docker/pretix/crontab.bak) file.
 
+## TLS setup
+
+You can specify the used TLS certificates by adapting the mounted [certificate](docker/pretix/files/config/ssl/domain.crt) and [key](docker/pretix/files/config/ssl/domain.key) e.g. from LetsEncrypt or generating new self-signed certificates by following the [manual](scripts/EXAMPLE-CERT-CREATION.md) and moving the generated files.
+
 ## Contribution
 If you would like to contribute something, have an improvement request, or want to make a change inside the code, please open a pull request.
 
