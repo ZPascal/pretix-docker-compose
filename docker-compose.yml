@@ -12,6 +12,7 @@ services:
     volumes:
       - pretix_data:/data
       - ./docker/pretix/pretix.cfg:/etc/pretix/pretix.cfg
+      - ./docker/pretix/crontab:/tmp/crontab
     ports:
       - "8000:80"
     networks:

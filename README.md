@@ -7,7 +7,7 @@ You can execute `docker-compose up -d --build --force-recreate` to start and bui
 
 ### Cronjobs
 
-It is possible to adapt the `pretixuser` crontab entries by modifying the [crontab.bak](docker/pretix/crontab.bak) file.
+It is possible to adapt the `pretixuser` crontab entries by modifying the [crontab](docker/pretix/crontab.bak) file.
 
 ## Contribution
 If you would like to contribute something, have an improvement request, or want to make a change inside the code, please open a pull request.

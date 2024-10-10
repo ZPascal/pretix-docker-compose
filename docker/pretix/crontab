@@ -21,4 +21,4 @@
 # For more information see the manual pages of crontab(5) and cron(8)
 #
 # m h  dom mon dow   command
-15,45 * * * * PRETIX_CONFIG_FILE=/etc/pretix/pretix.cfg python -m pretix runperiodic
+15,45 * * * * su pretixuser -c "PRETIX_CONFIG_FILE=/etc/pretix/pretix.cfg python -m pretix runperiodic"
