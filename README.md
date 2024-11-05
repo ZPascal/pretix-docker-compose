@@ -5,6 +5,11 @@ The repository includes a [Pretix](https://pretix.eu/about/de/) docker-compose c
 
 You can execute `docker-compose up -d --build --force-recreate` to start and build all related containers.
 
+### Version
+
+Version 1.0.0 Includes PostgreSQL 13
+Version 1.1.0 Includes PostgreSQL 16
+
 ### Cronjobs
 
 It is possible to adapt the `pretixuser` crontab entries by modifying the [crontab](docker/pretix/crontab.bak) file.
