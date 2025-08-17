@@ -9,6 +9,7 @@ You can execute `docker-compose up -d --build --force-recreate` to start and bui
 
 | **Version** |                         **Description**                          |
 |:-----------:|:----------------------------------------------------------------:|
+|    1.2.0    |                      Includes PostgreSQL 17                      |
 |    1.1.1    | Update the Alpine version and the allocated IPs of the databases |
 |    1.1.0    |                      Includes PostgreSQL 16                      |
 |    1.0.0    |                      Includes PostgreSQL 13                      |
