@@ -7,14 +7,15 @@ You can execute `docker-compose up -d --build --force-recreate` to start and bui
 
 ### Version information
 
-| **Version** |    **Description**     |
-|:-----------:|:----------------------:|
-|    1.1.0    | Includes PostgreSQL 16 |
-|    1.0.0    | Includes PostgreSQL 13 |
+| **Version** |                         **Description**                          |
+|:-----------:|:----------------------------------------------------------------:|
+|    1.1.1    | Update the Alpine version and the allocated IPs of the databases |
+|    1.1.0    |                      Includes PostgreSQL 16                      |
+|    1.0.0    |                      Includes PostgreSQL 13                      |
 
 ### Cronjobs
 
-It is possible to adapt the `pretixuser` crontab entries by modifying the [crontab](docker/pretix/crontab.bak) file.
+It is possible to adapt the `pretixuser` crontab entries by modifying the [crontab](docker/pretix/crontab) file.
 
 ## TLS setup
 
