@@ -1,14 +1,15 @@
-# Pretix Docker-Compose setup
-The repository includes a [Pretix](https://pretix.eu/about/de/) docker-compose configuration for local development.
+# Pretix Docker compose setup
+The repository includes a [Pretix](https://pretix.eu/about/de/) docker compose configuration for local development.
 
 ## Usage
 
-You can execute `docker-compose up -d --build --force-recreate` to start and build all related containers.
+You can execute `docker compose up -d --build --force-recreate` to start and build all related containers.
 
 ### Version information
 
 | **Version** |                         **Description**                          |
 |:-----------:|:----------------------------------------------------------------:|
+|    1.2.1    |          Update the documentation and the compose file           |
 |    1.2.0    |                      Includes PostgreSQL 17                      |
 |    1.1.1    | Update the Alpine version and the allocated IPs of the databases |
 |    1.1.0    |                      Includes PostgreSQL 16                      |
