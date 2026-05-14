@@ -20,7 +20,7 @@ services:
       - backend
 
   database:
-    image: postgres:17-alpine3.22
+    image: postgres:17-alpine3.23
     container_name: database
     ports:
       - "5432:5432"
@@ -33,7 +33,7 @@ services:
       - backend
 
   cache:
-    image: redis:alpine3.22
+    image: redis:alpine3.23
     container_name: redis
     ports:
       - "6379:6379"
