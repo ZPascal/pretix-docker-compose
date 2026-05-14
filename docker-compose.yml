@@ -20,7 +20,7 @@ services:
       - backend
 
   database:
-    image: postgres:17-alpine3.22
+    image: postgres:18-alpine3.23
     container_name: database
     ports:
       - "5432:5432"
@@ -28,12 +28,12 @@ services:
       - POSTGRES_USER=pretix
       - POSTGRES_PASSWORD=pretix
     volumes:
-      - postgres_data:/var/lib/postgresql/data
+      - postgres_data:/var/lib/postgresql
     networks:
       - backend
 
   cache:
-    image: redis:alpine3.22
+    image: redis:alpine3.23
     container_name: redis
     ports:
       - "6379:6379"

@@ -9,6 +9,7 @@ You can execute `docker compose up -d --build --force-recreate` to start and bui
 
 | **Version** |                         **Description**                          |
 |:-----------:|:----------------------------------------------------------------:|
+|    1.3.0    |     Update the Alpine version and add PostgreSQL 18 support      |
 |    1.2.1    |          Update the documentation and the compose file           |
 |    1.2.0    |                      Includes PostgreSQL 17                      |
 |    1.1.1    | Update the Alpine version and the allocated IPs of the databases |
@@ -27,7 +28,7 @@ You can specify the used TLS certificates by adapting the mounted [certificate](
 If you would like to contribute something, have an improvement request, or want to make a change inside the code, please open a pull request.
 
 ## Support
-If you need support, or you encounter a bug, please don't hesitate to open an issue.
+If you need support or you encounter a bug, please don't hesitate to open an issue.
 
 ## Donations
 If you want to support my work, I ask you to take an unusual action inside the open source community. Donate the money to a non-profit organization like Doctors Without Borders or the Children's Cancer Aid. I will continue to build tools because I like them, and I am passionate about developing and sharing applications.
